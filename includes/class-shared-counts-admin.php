@@ -332,6 +332,8 @@ class Shared_Counts_Admin {
 										'included_total'  => 'Total Counts',
 										'print'           => 'Print',
 										'email'           => 'Email',
+										'reddit'          => 'Reddit',
+										'clipboard'       => 'Copy Link'
 									]
 								);
 								$selected = $this->settings_value( 'included_services' );
